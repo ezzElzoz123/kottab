@@ -1,0 +1,47 @@
+<odoo>
+    <record id="view_quran_branch_tree" model="ir.ui.view">
+        <field name="name">quran.branch.tree</field>
+        <field name="model">quran.branch</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="manager_id"/>
+                <field name="address"/>
+                <field name="phone"/>
+                <field name="students_count"/>
+                <field name="teachers_count"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_quran_branch_form" model="ir.ui.view">
+        <field name="name">quran.branch.form</field>
+        <field name="model">quran.branch</field>
+        <field name="arch" type="xml">
+            <form string="Branch">
+                <sheet>
+                    <group>
+                        <field name="name" required="1"/>
+                        <field name="manager_id"/>
+                        <field name="address"/>
+                        <field name="phone"/>
+                    </group>
+                    <group>
+                        <field name="students_count" readonly="1"/>
+                        <field name="teachers_count" readonly="1"/>
+                    </group>
+                    <notebook>
+                        <page name="schedules" string="Schedules">
+                            <field name="schedule_ids">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                </tree>
+                            </field>
+
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

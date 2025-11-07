@@ -1,0 +1,27 @@
+<odoo>
+    <record id="view_teacher_finance_report_wizard" model="ir.ui.view">
+        <field name="name">quran.teacher.finance.report.wizard.form</field>
+        <field name="model">quran.teacher.finance.report.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Teacher Finance Report">
+                <group>
+                    <field name="branch_ids" widget="many2many_tags"/>
+                    <field name="teacher_ids" widget="many2many_tags" domain="[('branch_id', 'in', branch_ids), ('active', '=', True)]"/>
+                    <field name="month"/>
+                </group>
+                <footer>
+                    <button name="action_generate_report" type="object" string="Generate Report" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_teacher_finance_report_wizard" model="ir.actions.act_window">
+        <field name="name">Teacher Finance Report</field>
+        <field name="res_model">quran.teacher.finance.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+</odoo>

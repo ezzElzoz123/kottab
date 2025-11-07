@@ -1,0 +1,84 @@
+<odoo>
+    <record id="view_quran_student_tree" model="ir.ui.view">
+        <field name="name">quran.student.tree</field>
+        <field name="model">quran.student</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="branch_id"/>
+                <field name="teacher_id"/>
+                <field name="is_paying"/>
+                <field name="monthly_fee"/>
+                <field name="total_paid"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_quran_student_form" model="ir.ui.view">
+        <field name="name">quran.student.form</field>
+        <field name="model">quran.student</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" required="1"/>
+                        <field name="branch_id" required="1"/>
+                        <field name="teacher_id" domain="[('branch_id', '=', branch_id)]" required="1"/>
+                        <field name="join_date" required="1"/>
+                        <field name="leave_date"/>
+                        <field name="active" readonly="1"/>
+                        <field name="is_paying"/>
+                        <field name="monthly_fee" attrs="{'invisible':[('is_paying','=',False)]}"/>
+                        <field name="student_type"/>
+                        <field name="is_hafiz"/>
+                        <field name="current_surah" attrs="{'invisible': [('is_hafiz', '=', True)]}"/>
+                        <field name="current_juz" attrs="{'invisible': [('is_hafiz', '=', True)]}"/>
+                        <field name="schedule_id" domain="[('branch_id','=',branch_id)]"/>
+                    </group>
+                    <notebook>
+                        <page string="Payments" attrs="{'invisible':[('is_paying','=',False)]}">
+                            <field name="payment_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="amount"/>
+                                    <field name="month"/>
+                                    <field name="note"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Quran Exams">
+                            <field name="exam_ids">
+                                <tree editable="bottom">
+                                    <field name="exam_date"/>
+                                    <field name="student_id"/>
+                                    <field name="teacher_id" domain="[('branch_id','=', parent.branch_id)]"/>
+                                    <field name="surah"/>
+                                    <field name="juz"/>
+                                    <field name="score"/>
+                                    <field name="notes"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Rewards">
+                            <field name="reward_ids">
+                                <tree editable="bottom">
+                                    <field name="date"/>
+                                    <field name="student_id"/>
+                                    <field name="amount"/>
+                                    <field name="name"/>
+                                    <field name="notes"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <!-- ✅ هنا نضيف الشاتر -->
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+</odoo>

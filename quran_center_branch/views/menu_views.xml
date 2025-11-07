@@ -1,0 +1,70 @@
+<odoo>
+    <!-- Actions -->
+    <record id="action_quran_branch" model="ir.actions.act_window">
+        <field name="name">Branches</field>
+        <field name="res_model">quran.branch</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_quran_teacher" model="ir.actions.act_window">
+        <field name="name">Teachers</field>
+        <field name="res_model">quran.teacher</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_quran_student" model="ir.actions.act_window">
+        <field name="name">Students</field>
+        <field name="res_model">quran.student</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_quran_payment" model="ir.actions.act_window">
+        <field name="name">Payments</field>
+        <field name="res_model">quran.payment</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_quran_expense" model="ir.actions.act_window">
+        <field name="name">Expenses</field>
+        <field name="res_model">quran.expense</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_quran_donation" model="ir.actions.act_window">
+        <field name="name">Donations</field>
+        <field name="res_model">quran.donation</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_open_quran_branch_report" model="ir.actions.act_window">
+        <field name="name">Monthly Branch Report</field>
+        <field name="res_model">quran.branch.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record id="action_open_quran_student_payment_report" model="ir.actions.act_window">
+        <field name="name">Student Payment Report</field>
+        <field name="res_model">quran.student.payment.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+
+    <menuitem id="menu_quran_root" name="Quran Center" sequence="1"/>
+    <menuitem id="menu_quran_reports" name="Quran Reports" parent="menu_quran_root" sequence="15"/>
+
+    <menuitem id="menu_quran_student" name="Students" parent="menu_quran_root" action="action_quran_student"/>
+    <menuitem id="menu_quran_branch" name="Branches" parent="menu_quran_root" action="action_quran_branch"/>
+    <menuitem id="menu_quran_teacher" name="Teachers" parent="menu_quran_root" action="action_quran_teacher"/>
+    <menuitem id="menu_quran_payment" name="Payments" parent="menu_quran_root" action="action_quran_payment"/>
+    <menuitem id="menu_quran_expense" name="Expenses" parent="menu_quran_root" action="action_quran_expense"/>
+    <menuitem id="menu_quran_donation" name="Donations" parent="menu_quran_root" action="action_quran_donation"/>
+    <menuitem id="menu_quran_branch_report" name="Monthly Branch Report" parent="menu_quran_reports"
+              action="action_open_quran_branch_report"/>
+    <menuitem id="menu_quran_student_payment_report" name="Student Payment Report" parent="menu_quran_reports"
+              action="action_open_quran_student_payment_report"/>
+    <menuitem id="menu_teacher_finance_report" name="Teacher Finance Report" parent="menu_quran_reports"
+              action="action_teacher_finance_report_wizard"/>
+
+</odoo>

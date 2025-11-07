@@ -1,0 +1,1108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quran_center_branch
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-07 11:13+0000\n"
+"PO-Revision-Date: 2025-11-07 13:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__active
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__active
+msgid "Active"
+msgstr "يحضر"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__address
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__address
+msgid "Address"
+msgstr "العنوان"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__amount
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__amount
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__amount
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__4
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__4
+msgid "April"
+msgstr "ابريل"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__8
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__8
+msgid "August"
+msgstr "اغسطس"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__branch_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__branch_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__branch_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__branch_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__branch_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__branch_id
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_branch_form
+msgid "Branch"
+msgstr "الفرع"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__manager_id
+msgid "Branch Manager"
+msgstr "مدير الفرع"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_branch_report_wizard
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_branch_report_wizard_form
+msgid "Branch Monthly Report"
+msgstr "تقرير الفرع الشهري"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__name
+msgid "Branch Name"
+msgstr "اسم الفرع"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__branch_ids
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__branch_ids
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_branch
+msgid "Branches"
+msgstr "الفروع"
+
+#. module: quran_center_branch
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_branch_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_payment_report_wizard
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_teacher_finance_report_wizard
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__create_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__create_uid
+msgid "Created by"
+msgstr "تم الإنشاء بواسطة"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__create_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__create_date
+msgid "Created on"
+msgstr "تم الإنشاء في"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__current_juz
+msgid "Current Juz"
+msgstr "الجزء الحالي"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__current_surah
+msgid "Current Surah"
+msgstr "السورة الحالية"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__12
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__12
+msgid "December"
+msgstr "ديسمبر"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__display_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_donation
+#: model:ir.model,name:quran_center_branch.model_quran_donation
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_donation
+msgid "Donations"
+msgstr "التبرعات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__donor_name
+msgid "Donor Name"
+msgstr "اسم المتبرع"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student__student_type__ejaza
+msgid "Ejaza"
+msgstr "إجازة"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__electricity
+msgid "Electricity"
+msgstr "كهرباء"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__exam_ids
+msgid "Exam"
+msgstr "اختبار"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__file_data
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__file_data
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__file_data
+msgid "Excel File"
+msgstr "ملف أكسيل"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "Exempt"
+msgstr "عذر"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__name
+msgid "Expense Name"
+msgstr "اسم الإنفاق"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__type
+msgid "Expense Type"
+msgstr "نوع الإنفاق"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_expense
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_expense
+msgid "Expenses"
+msgstr "النفقات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__2
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__2
+msgid "February"
+msgstr "فبراير"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__file_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__file_name
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__file_name
+msgid "File Name"
+msgstr "اسم الملف"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_follower_ids
+msgid "Followers"
+msgstr "المتابعين"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعين"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: quran_center_branch
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_payment_report_wizard
+msgid "Generate Monthly Student Payments Report"
+msgstr "طباعة التقرير"
+
+#. module: quran_center_branch
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_branch_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_payment_report_wizard
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_teacher_finance_report_wizard
+msgid "Generate Report"
+msgstr "طباعة التقرير"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_exception_icon
+msgid "Icon"
+msgstr "الايقونة"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_is_follower
+msgid "Is Follower"
+msgstr "تابع"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__is_hafiz
+msgid "Is Hafiz"
+msgstr "حافظ"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__1
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__1
+msgid "January"
+msgstr "يناير"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__join_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__join_date
+msgid "Join Date"
+msgstr "تاريخ الالتحاق"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__7
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__7
+msgid "July"
+msgstr "يوليو"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__6
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__6
+msgid "June"
+msgstr "يونيو"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher____last_update
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__write_uid
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_expense__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__write_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__leave_date
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__leave_date
+msgid "Leave Date"
+msgstr "تاريخ المغادرة"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__3
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__3
+msgid "March"
+msgstr "مارس"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__5
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__5
+msgid "May"
+msgstr "مايو"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__month
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__month
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__month
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__month
+msgid "Month"
+msgstr "الشهر"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#, python-format
+msgid "Monthly Branch Financial Report"
+msgstr "تقرير الفرع الشهري"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_branch_report_wizard
+msgid "Monthly Branch Financial Report Wizard"
+msgstr "تقرير الفرع الشهري"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_open_quran_branch_report
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_branch_report
+msgid "Monthly Branch Report"
+msgstr "تقرير الفرع الشهري"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__monthly_fee
+msgid "Monthly Fee"
+msgstr "مصروف شهري"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__salary
+msgid "Monthly Salary"
+msgstr "المرتب الشهري"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "Monthly Student Payments Report"
+msgstr "تقرير المدفوعات الشهرية للطلاب"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_schedule__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student__student_type__normal
+msgid "Normal"
+msgstr "طبيعي"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "Not Paid"
+msgstr "لم يدفع"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__note
+msgid "Note"
+msgstr "ملاحظات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_donation__note
+msgid "Notes"
+msgstr "ملاحظات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__11
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__11
+msgid "November"
+msgstr "نوفمبر"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__10
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__10
+msgid "October"
+msgstr "اكتوبر"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_expense
+msgid "Operating Expenses"
+msgstr "مصاريف تشغيلية"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__other
+msgid "Other"
+msgstr "اخرى"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_payment
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__payment_ids
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_payment
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_form
+msgid "Payments"
+msgstr "المدفوعات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__is_paying
+msgid "Pays Monthly?"
+msgstr "قادر على الدفع؟"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__phone
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__phone
+msgid "Phone"
+msgstr "رقم الهاتف"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student_payment_report_wizard__printed_time
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__printed_time
+msgid "Printed Time"
+msgstr "تاريخ الطباعة"
+
+#. module: quran_center_branch
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_root
+msgid "Quran Center"
+msgstr "مركز تحفيظ القرآن"
+
+#. module: quran_center_branch
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_form
+msgid "Quran Exams"
+msgstr "الاختبارات"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_branch
+msgid "Quran Memorization Branch"
+msgstr "فرع"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_exam
+msgid "Quran Memorization Exam"
+msgstr "الاختبارات"
+
+#. module: quran_center_branch
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_reports
+msgid "Quran Reports"
+msgstr "التقارير"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_student
+msgid "Quran Student"
+msgstr "الطالب"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_teacher
+msgid "Quran Teacher"
+msgstr "المعلم"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__rent
+msgid "Rent"
+msgstr "إيجار"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__activity_user_id
+msgid "Responsible User"
+msgstr "المسئول"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__reward_ids
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__reward
+msgid "Reward"
+msgstr "المكافأة"
+
+#. module: quran_center_branch
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_student_form
+msgid "Rewards"
+msgstr "المكافآت"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__schedule_ids
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__schedule_id
+msgid "Schedule"
+msgstr "المواعيد"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_schedule
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_quran_branch_form
+msgid "Schedules"
+msgstr "المواعيد"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_payment__month__9
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_teacher_finance_report_wizard__month__9
+msgid "September"
+msgstr "سبتمبر"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_payment__student_id
+msgid "Student"
+msgstr "الطالب"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__name
+msgid "Student Name"
+msgstr "اسم الطالب"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_open_quran_student_payment_report
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_student_payment_report_wizard
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_student_payment_report
+msgid "Student Payment Report"
+msgstr "التقرير المالي للطلاب"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_student_payment_report_wizard
+msgid "Student Payment Report Wizard"
+msgstr "التقرير المالي للطلاب"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_payment
+msgid "Student Payments"
+msgstr "المدفوعات"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_reward
+msgid "Student Rewards"
+msgstr "المكافآت"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__student_type
+msgid "Student Type"
+msgstr "نوع الطالب"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_student
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_student
+msgid "Students"
+msgstr "الطالب"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__students_count
+msgid "Students Count"
+msgstr "عدد الطلاب"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__supplies
+msgid "Supplies"
+msgstr "كماليات"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student__student_type__talqen
+msgid "Talqen"
+msgstr "تلقين"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__teacher_id
+msgid "Teacher"
+msgstr "المعلم"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#: model:ir.actions.act_window,name:quran_center_branch.action_teacher_finance_report_wizard
+#: model:ir.ui.menu,name:quran_center_branch.menu_teacher_finance_report
+#: model_terms:ir.ui.view,arch_db:quran_center_branch.view_teacher_finance_report_wizard
+#, python-format
+msgid "Teacher Finance Report"
+msgstr "التقرير المالي للمعلم"
+
+#. module: quran_center_branch
+#: model:ir.model,name:quran_center_branch.model_quran_teacher_finance_report_wizard
+msgid "Teacher Finance Report Wizard"
+msgstr "التقرير المالي للمعلم"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher__name
+msgid "Teacher Name"
+msgstr "اسم المعلم"
+
+#. module: quran_center_branch
+#: model:ir.actions.act_window,name:quran_center_branch.action_quran_teacher
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_teacher_finance_report_wizard__teacher_ids
+#: model:ir.ui.menu,name:quran_center_branch.menu_quran_teacher
+msgid "Teachers"
+msgstr "المعلمين"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch__teachers_count
+msgid "Teachers Count"
+msgstr "عدد المعلمين"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "Total"
+msgstr "الاجمالي"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_student__total_paid
+msgid "Total Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "Totals"
+msgstr "الاجمالي"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,help:quran_center_branch.field_quran_student__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_expense__type__water
+msgid "Water"
+msgstr "فاتورة مياه"
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__year
+msgid "Year"
+msgstr "سنة"
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__04
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__04
+msgid "ابريل"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "اجمالي المدفوع"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__name
+msgid "اسم الامتحان"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__name
+msgid "اسم المكافأة"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__08
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__08
+msgid "اغسطس"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__10
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__10
+msgid "اكتوبر"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "التلاميذ القادرين على الدفع"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "التلميذ"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__juz
+msgid "الجزء"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "الحالة"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__score
+msgid "الدرجة"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__surah
+msgid "السورة"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "الشهر"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__teacher_id
+msgid "الشيخ"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__student_id
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__student_id
+msgid "الطالب"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__branch_ids
+#, python-format
+msgid "الفرع"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__amount
+msgid "المبلغ"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "المبلغ المدفوع"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#, python-format
+msgid "المبلغ المدفوغ"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "المتبقي"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "المرتب"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "المستخدم"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#, python-format
+msgid "المصروفات"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "المعلم"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__exam_date
+msgid "تاريخ الامتحان"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "تاريخ الدفع"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_branch_report_wizard__printed_time
+#, python-format
+msgid "تاريخ الطباعة"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__date
+msgid "تاريخ المكافأة"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__12
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__12
+msgid "ديسمبر"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__09
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__09
+msgid "سبتمبر"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "شهر"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "صافي الدخل"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/teacher_finance_report_wizard.py:0
+#, python-format
+msgid "عدد التلاميذ"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__02
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__02
+msgid "فبراير"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/student_payment_report_wizard.py:0
+#, python-format
+msgid "لديه القدرة على الدفع"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__03
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__03
+msgid "مارس"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__05
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__05
+msgid "مايو"
+msgstr ""
+
+#. module: quran_center_branch
+#. odoo-python
+#: code:addons/quran_center_branch/wizard/branch_report_wizard.py:0
+#, python-format
+msgid "مبلغ التبرع"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_exam__notes
+#: model:ir.model.fields,field_description:quran_center_branch.field_quran_reward__notes
+msgid "ملاحظات"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__11
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__11
+msgid "نوفمبر"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__01
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__01
+msgid "يناير"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__07
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__07
+msgid "يوليو"
+msgstr ""
+
+#. module: quran_center_branch
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_branch_report_wizard__month__06
+#: model:ir.model.fields.selection,name:quran_center_branch.selection__quran_student_payment_report_wizard__month__06
+msgid "يونيو"
+msgstr ""

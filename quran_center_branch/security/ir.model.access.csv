@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_quran_branch_user,quran.branch,model_quran_branch,,1,1,1,1
+access_quran_student_user,quran.student,model_quran_student,,1,1,1,1
+access_quran_teacher_user,quran.teacher,model_quran_teacher,,1,1,1,1
+access_quran_payment_user,quran.payment,model_quran_payment,,1,1,1,1
+access_quran_expense_user,quran.expense,model_quran_expense,,1,1,1,1
+access_quran_donation_user,quran.donation,model_quran_donation,,1,1,1,1
+access_quran_reward_user,quran.reward,model_quran_reward,,1,1,1,1
+access_quran_exam_user,quran.exam,model_quran_exam,,1,1,1,1
+access_quran_schedule_user,quran.schedule,model_quran_schedule,,1,1,1,1
+access_quran_branch_report_wizard_user,quran.branch.report.wizard,model_quran_branch_report_wizard,,1,1,1,1
+access_quran_student_payment_report_wizard_user,quran.student.payment.report.wizard,model_quran_student_payment_report_wizard,,1,1,1,1
+access_quran_teacher_finance_report_wizard_user,quran.teacher.finance.report.wizard,model_quran_teacher_finance_report_wizard,,1,1,1,1
